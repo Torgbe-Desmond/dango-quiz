@@ -1,13 +1,15 @@
-import { Link } from 'react-router-dom';
-import './Header.css';
-
+import { Link } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
-  return  <div className="header">
-    <hr className="divider"/>
-    <Link to="/" className="title">PROGRAMMING QUIZ HUB</Link>
-    <hr className="divider"/>
-    </div>;   
+  return (
+    <div className="header">
+      <Link to="/" className="title">
+        Programming Quiz App
+      </Link>
+      <hr className="divider" />
+    </div>
+  );
 };
 
-export default Header;  
+export default Header;
